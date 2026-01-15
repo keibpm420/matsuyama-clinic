@@ -2,7 +2,7 @@
 
 # サイトタイトル：MATSUYAMA CLINIC
 
-**URL:** https://sholateia.github.io/practice01/
+**URL:** https://keibpm420.github.io/matsuyama-clinic/
 
 ## 使用技術
 
