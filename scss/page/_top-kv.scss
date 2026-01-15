@@ -1,0 +1,32 @@
+@use "../global" as g;
+
+/*!
+page > top > top-kv
+------------------------------
+*/
+.top-kv {
+    height: 100svh;
+    background-image: url("../img/bg-top-kv-sp.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    @include g.mq() {
+        // height: 800rem;
+        height: calc(100svh + 80rem);
+        background-image: url("../img/bg-top-kv.png");
+    }
+}
+
+.top-kv-img {
+    position: absolute;
+    width: 357rem;
+    top: 40.5%;
+    left: 50%;
+    translate: -50% 0;
+
+    @include g.mq() {
+        top: 243rem;
+        width: 664rem;
+    }
+}
